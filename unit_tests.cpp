@@ -34,3 +34,9 @@ Stack tester3;
 REQUIRE(tester3.top() == 1);
 REQUIRE(tester3.top() == 1);
 }
+
+TEST_CASE("print stack elements", "testTag5")
+{
+Stack tester3;
+REQUIRE(tester3.print() == "NULL");
+}
