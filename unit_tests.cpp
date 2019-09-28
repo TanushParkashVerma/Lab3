@@ -13,3 +13,10 @@ Stack tester;
 REQUIRE(tester.empty() == true);
 REQUIRE(tester.full() == false);
 }
+
+TEST_CASE("A new int is pushed to stack or not ", "testTag2")
+{
+Stack tester;
+REQUIRE(tester.push(2) == true);
+REQUIRE(tester.push(3) == true);
+}
